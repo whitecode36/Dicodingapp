@@ -33,7 +33,7 @@
 
 // PHP Data Objects(PDO) Sample Code:
 try {
-    $conn = new PDO("sqlsrv:server = tcp:dicodingappserverku.database.windows.net,1433; Database = dicodingdb", "dicoding", "{your_password_here}");
+    $conn = new PDO("sqlsrv:server = tcp:dicodingappserverku.database.windows.net,1433; Database = dicodingdb", "dicoding", "{Marthinaja98}");
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 }
 catch (PDOException $e) {
