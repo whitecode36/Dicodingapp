@@ -26,10 +26,10 @@
        <input type="submit" name="load_data" value="Load Data" />
  </form>
  <?php
-    $host = "dicodingappserverku.database.windows.net";
-    $user = "dicoding";
+    $host = "whitecodeappserver.database.windows.net";
+    $user = "whitecode";
     $pass = "Marthinaja98";
-    $db = "dicodingdb";
+    $db = "whitecodedb";
 
     try {
         $conn = new PDO("sqlsrv:server = $host; Database = $db", $user, $pass);
