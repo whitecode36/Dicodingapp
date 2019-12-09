@@ -42,7 +42,7 @@ if (isset($_POST['submit'])) {
                 <a class="nav-link" href="https://whitecodewebapp.azurewebsites.net/">Home</a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" href="https://whitecodewebapp.azurewebsites.net/engine.php">Analisis Kendaraan<span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="https://whitecodewebapp.azurewebsites.net/engine.php">Analisis Gambar<span class="sr-only">(current)</span></a>
             </li>
         </div>
         </nav>
