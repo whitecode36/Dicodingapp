@@ -41,7 +41,7 @@ $result = $blobClient->listBlobs($containerName, $listBlobsOptions);
     <link href="https://getbootstrap.com/docs/4.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="starter-template.css" rel="stylesheet">
+    // <link href="starter-template.css" rel="stylesheet">
   </head>
 <body>
 	<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
