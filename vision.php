@@ -63,6 +63,7 @@ if (isset($_POST['submit'])) {
         .done(function(data) {
 
             $("#responseTextArea").val(JSON.stringify(data, null, 2));
+             $("#description").text(data.description.captions[0].text);
         })
  
         .fail(function(jqXHR, textStatus, errorThrown) {
@@ -98,6 +99,8 @@ document.getElementById('analyze_btn').click();
         Source image:
         <br><br>
         <img id="sourceImage" width="400" />
+        <br>
+        <h3 id="description">Loading description. . .</h3>
     </div>
 </div>
 </body>
