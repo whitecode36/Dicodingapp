@@ -7,8 +7,8 @@ use MicrosoftAzure\Storage\Common\Exceptions\ServiceException;
 use MicrosoftAzure\Storage\Blob\Models\ListBlobsOptions;
 use MicrosoftAzure\Storage\Blob\Models\CreateContainerOptions;
 use MicrosoftAzure\Storage\Blob\Models\PublicAccessType;
-$connectionString = "whitecodewebapp";
-$containerName = "pXWg/1iOx4N8Lrqn6nIZbOuN+A68VxIoN/wtq53pLpgiqbPChhFVPMwEhUk0IKKAq6foN5oiCxYs/DKrSJhnnw==";
+$connectionString = "DefaultEndpointsProtocol=https;AccountName=whitecodewebapp;AccountKey=pXWg/1iOx4N8Lrqn6nIZbOuN+A68VxIoN/wtq53pLpgiqbPChhFVPMwEhUk0IKKAq6foN5oiCxYs/DKrSJhnnw==;EndpointSuffix=core.windows.net";
+$containerName = "whitecodecontainer";
 // Create blob client.
 $blobClient = BlobRestProxy::createBlobService($connectionString);
 if (isset($_POST['submit'])) {
